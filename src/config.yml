@@ -22,6 +22,7 @@ server:
     - iHess
     - SecretPattern
     - heroguy42
+
   # All players who show up as moderator
   moderators:
     - 
