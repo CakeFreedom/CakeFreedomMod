@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="iRedemptFreedomMod" default="default" basedir=".">
-    <description>Runs/Builds the iRedemptFreedomMod, an API for the server</description>
+<project name="CakeFreedomMod" default="default" basedir=".">
+    <description>Runs/Builds the CakeFreedomMod, an API for the server</description>
     <import file="nbproject/build-impl.xml" />
 
     <target name="-pre-jar">
