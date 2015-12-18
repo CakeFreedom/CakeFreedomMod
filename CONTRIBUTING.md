@@ -90,6 +90,6 @@ meaning you can't remove your current IP or an IP that doesn't belong to you.
 * Please do not spread your contribution over several pull-requests.
 
 ## Additional Resources ##
-* [CakeFreedom information](http://Cakefreedom.board.net)
+* [CakeFreedom information](http://cakenation.board.net)
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
