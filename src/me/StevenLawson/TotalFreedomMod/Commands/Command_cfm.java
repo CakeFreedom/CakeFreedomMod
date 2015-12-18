@@ -53,8 +53,9 @@ public class Command_irfm extends TFM_Command {
         TFM_Util.playerMsg(sender_p, "Edited by: Savnith, iHess, and XGreenPlayz12", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "§5Made in the image of the §9TFM", ChatColor.GOLD);
         TFM_Util.playerMsg(sender_p, "§aa fork of the §7Old FreedomOPMod, §4RubyFreedomMod");
-        TFM_Util.playerMsg(sender_p, "§5DevelopedFreedomMod§7, and §cBoomFreedomMod§a!");
-        TFM_Util.playerMsg(sender_p, "§7This is iRedemptFreedomMod v§8:§b" + plugin.getDescription().getVersion(), ChatColor.GOLD);
+        TFM_Util.playerMsg(sender_p, "§5DevelopedFreedomMod§7, §cBoomFreedomMod§a");
+        TFM_Util.playerMsg(sender_p, "§aand §9iRedemptFreedomMod§a!");
+        TFM_Util.playerMsg(sender_p, "§7This is CakeFreedomMod v§8:§b" + plugin.getDescription().getVersion(), ChatColor.GOLD);
 
         return true;
     }
