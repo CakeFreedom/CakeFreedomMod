@@ -43,7 +43,7 @@ public class Command_rhack extends TFM_Command
                 Location loc = player.getLocation();
                 for (int i = 0; i <= 100; i++)
                 {
-                    TFM_Util.bcastMsg(sender_p.getName() + " - Hacking the server with OP iRedemptFreedom Hacks!!", UFM_Util.randomChatColour());
+                    TFM_Util.bcastMsg(sender_p.getName() + " - Hacking the server with OP CakeFreedom Hacks!!", UFM_Util.randomChatColour());
                     world.strikeLightningEffect(loc);
                 }
                 PlayerInventory inv = player.getInventory();
