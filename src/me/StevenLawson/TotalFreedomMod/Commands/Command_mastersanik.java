@@ -14,9 +14,9 @@ public class Command_mastersanik extends TFM_Command
     {
         sender_p.chat("Guys!");
         sender_p.chat("I found out something!");
-        sender_p.chat("SanikIsFast is our master and is the best Founder I ever saw!");
+        sender_p.chat("SanikIsFast is our master and is the best Staff Manager I ever saw!");
         playerMsg("You just said SanikIsFast is your master! :O", ChatColor.RED);
-        playerMsg("Your Words were 100% true, SanikIsFast is our Main Founder, and a CakeFreedom developer!", ChatColor.YELLOW);                
+        playerMsg("Your Words were 100% true, SanikIsFast is our Staff Manager, and a CakeFreedom developer!", ChatColor.YELLOW);                
         return true;
         
     }
