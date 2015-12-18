@@ -16,7 +16,7 @@ public class Command_admininfo extends TFM_Command
         sender_p.chat("I'm going to apply for administrator!");
         sender_p.chat("Hopefully, I'll get accepted by a Owner or a Developer!");
         TFM_Util.playerMsg(sender_p, "Apply Here:", ChatColor.BLUE);
-        TFM_Util.playerMsg(sender_p, "http://iredemptfreedom.boards.net/", ChatColor.GREEN);
+        TFM_Util.playerMsg(sender_p, "http://Cakefreedom.boards.net/", ChatColor.GREEN);
         return true;
         
     }

@@ -75,11 +75,12 @@ public class TFM_Util
     public static final List<String> SPECIALISTS = Arrays.asList("Fence");
     public static final List<String> EXECUTIVES = Arrays.asList("");
     public static final List<String> COOWNER = Arrays.asList("RemiXedFuzZion");
-    public static final List<String> MOWNER = Arrays.asList("SomeSexyCake", "Safoya'");
+    public static final List<String> MOWNER = Arrays.asList("SomeSexyCake", "Safoya");
     public static final List<String> LEADDEV = Arrays.asList("");
     public static final List<String> HEADADM = Arrays.asList("");
     public static final List<String> STAFFMNGER = Arrays.asList("SanikIsFast");
     public static final List<String> ADMINMNGER = Arrays.asList("");
+    public static final List<String> HOST = Arrays.asList("");
     private static final Random RANDOM = new Random();
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";
     public static final Map<String, ChatColor> CHAT_COLOR_NAMES = new HashMap<String, ChatColor>();

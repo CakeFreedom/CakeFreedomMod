@@ -106,6 +106,6 @@ public class Module_dump extends TFM_HTTPD_Module
     @Override
     public String getTitle()
     {
-        return "iRedemptFreedomMod :: Request Debug Dumper";
+        return "CakeFreedomMod :: Request Debug Dumper";
     }
 }

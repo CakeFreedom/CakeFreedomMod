@@ -28,19 +28,19 @@ public class TFM_ServerListener implements Listener
 
         if (TFM_ConfigEntry.ADMIN_ONLY_MODE.getBoolean())
         {
-            event.setMotd(ChatColor.RED + "iRedemptFreedom is currently in admin-only mode.");
+            event.setMotd(ChatColor.RED + "CakeFreedom is currently in admin-only mode.");
             return;
         }
 
         if (Bukkit.hasWhitelist())
         {
-            event.setMotd(ChatColor.RED + "iRedemptFreedom's whitelist is enabled");
+            event.setMotd(ChatColor.RED + "CakeFreedom's whitelist is enabled");
             return;
         }
 
         if (Bukkit.getOnlinePlayers().size() >= Bukkit.getMaxPlayers())
         {
-            event.setMotd(ChatColor.RED + "iRedemptFreedom is currently full.");
+            event.setMotd(ChatColor.RED + "CakeFreedom is currently full.");
             return;
         }
 

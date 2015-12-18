@@ -39,6 +39,7 @@ public class TotalFreedomMod extends JavaPlugin
     public static final int MAX_USERNAME_LENGTH = 20;
     //
     public static final String CONFIG_FILENAME = "config.yml";
+    public static final String DONATOR_FILENAME = "donators.yml";
     public static final String SUPERADMIN_FILENAME = "superadmin.yml";
     public static final String PERMBAN_FILENAME = "permban.yml";
     public static final String UUID_FILENAME = "uuids.db";

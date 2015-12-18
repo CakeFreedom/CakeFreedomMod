@@ -27,7 +27,7 @@ public class Command_status extends TFM_Command
     @Override
     public boolean run(final CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        playerMsg("For information about iRedemptFreedomMod, try /irfm", ChatColor.GREEN); // Temporary
+        playerMsg("For information about CakeFreedomMod, try /irfm", ChatColor.GREEN); // Temporary
 
         playerMsg("Server is currently running with 'online-mode=" + (server.getOnlineMode() ? "true" : "false") + "'.", ChatColor.YELLOW);
         playerMsg("Loaded worlds:", ChatColor.BLUE);

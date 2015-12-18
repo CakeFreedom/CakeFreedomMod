@@ -13,6 +13,7 @@ import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
 import me.StevenLawson.TotalFreedomMod.TFM_BanManager;
 import me.StevenLawson.TotalFreedomMod.TFM_CommandBlocker;
 import me.StevenLawson.TotalFreedomMod.TFM_DepreciationAggregator;
+import me.StevenLawson.TotalFreedomMod.TFM_DonatorList;
 import me.StevenLawson.TotalFreedomMod.TFM_Heartbeat;
 import me.StevenLawson.TotalFreedomMod.TFM_Jumppads;
 import me.StevenLawson.TotalFreedomMod.TFM_Log;
@@ -28,6 +29,7 @@ import me.StevenLawson.TotalFreedomMod.TFM_Util;
 import me.StevenLawson.TotalFreedomMod.TFM_UuidManager;
 import me.StevenLawson.TotalFreedomMod.TotalFreedomMod;
 import me.StevenLawson.TotalFreedomMod.World.TFM_AdminWorld;
+import me.StevenLawson.TotalFreedomMod.World.TFM_DonatorWorld;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -1067,12 +1069,12 @@ public class TFM_PlayerListener implements Listener
             {
                 if (TFM_ConfigEntry.ADMIN_ONLY_MODE.getBoolean())
                 {
-                    player.sendMessage(ChatColor.RED + "iRedemptFreedom is currently closed to non-superadmins.");
+                    player.sendMessage(ChatColor.RED + "CakeFreedom is currently closed to non-superadmins.");
                 }
 
                 if (TotalFreedomMod.lockdownEnabled)
                 {
-                    TFM_Util.playerMsg(player, "Warning: iRedemptFreedom is currenty in lockdown-mode, new players will not be able to join!", ChatColor.RED);
+                    TFM_Util.playerMsg(player, "Warning: CakeFreedom is currenty in lockdown-mode, new players will not be able to join!", ChatColor.RED);
                 }
             }
         }.runTaskLater(TotalFreedomMod.plugin, 20L * 1L);

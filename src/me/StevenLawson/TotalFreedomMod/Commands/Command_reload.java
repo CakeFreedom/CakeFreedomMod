@@ -14,14 +14,14 @@ public class Command_reload extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        TFM_Util.bcastMsg("Server is reloading. Please wait...", ChatColor.LIGHT_PURPLE);
+        TFM_Util.bcastMsg("Server is reloading. Please wait..", ChatColor.LIGHT_PURPLE);
 
         server.reload();
         TFM_Util.adminAction(sender.getName(), "Disconnecting all players.", true);
 
         for (Player player : Bukkit.getOnlinePlayers())
         {
-            player.kickPlayer(ChatColor.DARK_RED + "[iRedemptFreedom] " + ChatColor.WHITE + "You have been kicked by " + sender.getName() + " because of a server reload. Please relog.");
+            player.kickPlayer(ChatColor.DARK_RED + "[CakeFreedom] " + ChatColor.WHITE + "You have been kicked by " + sender.getName() + " because of a server reload. Please relog.");
         }
         return true;
     }

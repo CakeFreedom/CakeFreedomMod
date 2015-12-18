@@ -28,16 +28,16 @@ public enum TFM_PlayerRank
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.translateAlternateColorCodes('&', "&8[&bSuper Admin&8]&9")),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.translateAlternateColorCodes('&', "&8[&2Telnet Admin&8]&9")),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin",ChatColor.translateAlternateColorCodes('&', "&8[&dSenior Admin&8]&9")),
-    OWNER("the " + ChatColor.DARK_RED + "Founder " + ChatColor.AQUA + "of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Founder&8]&9")),
+    OWNER("the " + ChatColor.DARK_RED + "Founder " + ChatColor.AQUA + "of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Founder&8]&9")),
     SYS_ADMIN("a " + ChatColor.DARK_RED + "System-Admin",ChatColor.translateAlternateColorCodes('&', "&8[&4System Admin&8]&9")),
-    LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&5L&7-&5Dev&8]&9")),
+    LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&5L&7-&5Dev&8]&9")),
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.translateAlternateColorCodes('&', "&8[&eExecutive&8]&9")),
-    CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&9Co&7-&9Owner&8]&9")),
+    CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&9Co&7-&9Owner&8]&9")),
     CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD&8]&9")),
-    MFOUNDER("the " + ChatColor.DARK_RED + "Main Founder" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Main Founder&8]&9")),    
-    HADMIN("the " + ChatColor.YELLOW + "Head Admin" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&eHead Admin&8]&9")),
-    STAFFMANAGE("the " + ChatColor.RED + "Staff Manager" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&cStaff Manager&8]&9")),
-    HOSTER("the " + ChatColor.GOLD + "Host" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&6&lHost&8]&9")),
+    MFOUNDER("the " + ChatColor.DARK_RED + "Main Founder" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Main Founder&8]&9")),    
+    HADMIN("the " + ChatColor.YELLOW + "Head Admin" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&eHead Admin&8]&9")),
+    STAFFMANAGE("the " + ChatColor.RED + "Staff Manager" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&cStaff Manager&8]&9")),
+    HOSTER("the " + ChatColor.GOLD + "Host" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&6&lHost&8]&9")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.translateAlternateColorCodes('&', "&8[&5Console&8]&9"));
     private final String loginMessage;
     private final String prefix;
@@ -109,7 +109,7 @@ public enum TFM_PlayerRank
         }
         else if (MOWNER.contains(sender.getName()))
         {
-            return MFOUNDER;SecretPattern
+            return MFOUNDER;
         }
         else if (STAFFMNGER.contains(sender.getName()))
         {

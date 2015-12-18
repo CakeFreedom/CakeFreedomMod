@@ -580,7 +580,7 @@ public class TFM_DonatorList
             {
                 if (verbose)
                 {
-                    TFM_Util.adminAction("iRedemptFreedomMod", "Deactivating donator " + superadmin.getLastLoginName() + ", inactive for " + lastLoginHours + " hours.", true);
+                    TFM_Util.adminAction("CakeFreedomMod", "Deactivating donator " + superadmin.getLastLoginName() + ", inactive for " + lastLoginHours + " hours.", true);
                 }
 
                 superadmin.setActivated(false);

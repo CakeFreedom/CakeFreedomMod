@@ -15,8 +15,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
-@CommandParameters(description = "Shows information about iRedemptFreedomMod or reloads it", usage = "/<command> [reload]")
-public class Command_irfm extends TFM_Command {
+@CommandParameters(description = "Shows information about CakeFreedomMod or reloads it", usage = "/<command> [reload]")
+public class Command_cfm extends TFM_Command {
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
@@ -49,8 +49,8 @@ public class Command_irfm extends TFM_Command {
             return true;
         }
 
-        TFM_Util.playerMsg(sender_p, "§9§ki§r §7|§7i§4Redempt§cFreedom§9Mod§7| §9§ki§r", ChatColor.GOLD);
-        TFM_Util.playerMsg(sender_p, "Edited by: Savnith, iHess, and XGreenPlayz12", ChatColor.GREEN);
+        TFM_Util.playerMsg(sender_p, "§9§ki§r §7|§4Cake§cFreedom§9Mod§7| §9§ki§r", ChatColor.GOLD);
+        TFM_Util.playerMsg(sender_p, "Edited by: SomeSexyCake", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "§5Made in the image of the §9TFM", ChatColor.GOLD);
         TFM_Util.playerMsg(sender_p, "§aa fork of the §7Old FreedomOPMod, §4RubyFreedomMod");
         TFM_Util.playerMsg(sender_p, "§5DevelopedFreedomMod§7, §cBoomFreedomMod§a");

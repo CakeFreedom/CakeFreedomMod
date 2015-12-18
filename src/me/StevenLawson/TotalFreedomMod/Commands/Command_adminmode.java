@@ -23,18 +23,18 @@ public class Command_adminmode extends TFM_Command
         if (args[0].equalsIgnoreCase("off"))
         {
             TFM_ConfigEntry.ADMIN_ONLY_MODE.setBoolean(false);
-            TFM_Util.adminAction(sender.getName(), "Opening iRedemptFreedom to all players.", true);
+            TFM_Util.adminAction(sender.getName(), "Opening CakeFreedom to all players.", true);
             return true;
         }
         else if (args[0].equalsIgnoreCase("on"))
         {
             TFM_ConfigEntry.ADMIN_ONLY_MODE.setBoolean(true);
-            TFM_Util.adminAction(sender.getName(), "Closing the iRedemptFreedom to non-superadmins.", true);
+            TFM_Util.adminAction(sender.getName(), "Closing the CakeFreedom to non-superadmins.", true);
             for (Player player : server.getOnlinePlayers())
             {
                 if (!TFM_AdminList.isSuperAdmin(player))
                 {
-                    player.kickPlayer(ChatColor.RED + "iRedemptFreedom is now closed to non-superadmins.");
+                    player.kickPlayer(ChatColor.RED + "CakeFreedom is now closed to non-superadmins.");
                 }
             }
             return true;

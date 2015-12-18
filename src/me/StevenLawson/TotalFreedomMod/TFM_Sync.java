@@ -49,6 +49,19 @@ public class TFM_Sync
 
         }.runTask(TotalFreedomMod.plugin);
     }
+    public static void donatorChatMessage(final CommandSender sender, final String message, final boolean isRed)
+    {
+        new BukkitRunnable()
+        {
+
+            @Override
+            public void run()
+            {
+                TFM_Util.donatorChatMessage(sender, message, isRed);
+            }
+
+        }.runTask(TotalFreedomMod.plugin);
+    }
 
     public static void autoEject(final Player player, final String kickMessage)
     {

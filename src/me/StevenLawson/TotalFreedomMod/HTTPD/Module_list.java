@@ -63,6 +63,6 @@ public class Module_list extends TFM_HTTPD_Module
     @Override
     public String getTitle()
     {
-        return "iRedempt Freedom - Online Users";
+        return "Cake Freedom - Online Users";
     }
 }
