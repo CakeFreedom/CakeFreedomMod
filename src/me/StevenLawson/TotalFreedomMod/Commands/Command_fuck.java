@@ -37,7 +37,7 @@ public class Command_fuck extends TFM_Command
     {
       reason = StringUtils.join(ArrayUtils.subarray(args, 1, args.length), " ");
     }
-    TFM_Util.bcastMsg(ChatColor.RED + "FUCKOFF" ChatColor.GRAY + " - " + ChatColor.DARK_RED + player.getName() + " has been fuckoff'd!");
+    TFM_Util.bcastMsg(ChatColor.RED + "FUCKOFF" + ChatColor.GRAY + " - " + ChatColor.DARK_RED + player.getName() + " has been fuckoff'd!");
     try
     {
       TFM_WorldEditBridge.undo(player, 15);
@@ -54,7 +54,7 @@ public class Command_fuck extends TFM_Command
     {
      for (int z = -1; z <= 1; z++)
      {
-     final Location strike_pos = new Location(targetPos.getWorld(), targetPos.getBlockX() + x, targetPos.getBlockY(), targetPos.getBlockZ() + z)
+     final Location strike_pos = new Location(targetPos.getWorld(), targetPos.getBlockX() + x, targetPos.getBlockY(), targetPos.getBlockZ() + z);
      targetPos.getWorld().strikeLightning(strike_pos);
      }
     }
