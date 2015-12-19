@@ -868,11 +868,11 @@ public class TFM_PlayerListener implements Listener
         if (TFM_Util.DEVELOPERS.contains(player.getName()))
         {
             player.sendMessage(ChatColor.LIGHT_PURPLE + "Welcome, " + player.getName() + "!");
-            player.sendMessage(ChatColor.LIGHT_PURPLE + "You are currently a " + ChatColor.DARK_PURPLE + "Developer");
+            player.sendMessage(ChatColor.LIGHT_PURPLE + "You Are A " + ChatColor.DARK_PURPLE + "Developer!");
             player.sendMessage(ChatColor.GRAY + "Connect with via Telnet Client to connect to the via server");            
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.DARK_PURPLE + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Developer&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&4&K!&8[&5Developer&8]&4&k!");
             afterNameSet(player);
             return;
         }
