@@ -927,7 +927,7 @@ public class TFM_PlayerListener implements Listener
             player.sendMessage(ChatColor.GRAY + "Haven't joined our boards yet? You need to join!");             
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.YELLOW + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&eHead Admin&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&4You&fTuber&8]");
             afterNameSet(player);
             return;
         }        
