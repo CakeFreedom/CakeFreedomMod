@@ -29,7 +29,6 @@ import me.StevenLawson.TotalFreedomMod.TFM_Util;
 import me.StevenLawson.TotalFreedomMod.TFM_UuidManager;
 import me.StevenLawson.TotalFreedomMod.TotalFreedomMod;
 import me.StevenLawson.TotalFreedomMod.World.TFM_AdminWorld;
-import me.StevenLawson.TotalFreedomMod.World.TFM_DonatorWorld;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -976,6 +975,17 @@ public class TFM_PlayerListener implements Listener
             afterNameSet(player);
             return;
         }
+        if (TFM_Util.YT.contains(player.getName()))
+        {
+            player.sendMessage(ChatColor.GOLD + "Welcome, " + player.getName() + "!");
+            player.sendMessage(ChatColor.GOLD + "You are currently a " + ChatColor.RED + "You" + ChatColor.WHITE + "Tuber" + ChatColor.GOLD + "!");
+            player.sendMessage(ChatColor.GRAY + "Haven't joined our boards yet? You need to join!");             
+            TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
+            player.setPlayerListName(ChatColor.YELLOW + name);
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&eHead Admin&8]");
+            afterNameSet(player);
+            return;
+        } 
         else if (TFM_DonatorList.isDonator(player)) {
             
             if (TFM_DonatorList.isDonatorPlus(player)) {
