@@ -11,7 +11,6 @@ import org.bukkit.entity.Player;
 
 public class YuchisUtil
 {
-  
     public static void opBlow(final Player player)
     {
       TFM_Util.bcastMsg(player.getName() + " has been a naughty, naughty person", ChatColor.RED);
@@ -53,6 +52,26 @@ public class YuchisUtil
     }
     public static void darkIsSwag(CommandSender sender, Player player)
     {
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
+      TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
       TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
       TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
       TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
