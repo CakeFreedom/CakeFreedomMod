@@ -14,7 +14,7 @@ public class YuchisUtil
     public static void opBlow(final Player player)
     {
       TFM_Util.bcastMsg(player.getName() + " has been a naughty, naughty person", ChatColor.RED);
-      TFM_Util.bcastMsg(player.getName() + " is gonna be blown up!"
+      TFM_Util.bcastMsg(player.getName() + " is gonna be blown up!", ChatColor.RED);
       player.setOp(false);
       player.getInventory().clear();
       player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 4f, false, false);
