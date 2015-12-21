@@ -32,7 +32,7 @@ public class YuchisUtil
     }
     
     // remixedcake's personal cmd also xyuchi can access this
-    public static void remixedCakesBlowjob(CommandSender sender, Player player)
+    public static void remixedCakesBlowjob(final CommandSender sender, final Player player)
     {
       TFM_Util.bcastMsg("ALERT: " + sender.getName() + " is gonna blowjob' " + player.getName() + "!", ChatColor.RED);
       TFM_Util.bcastMsg("<" + ChatColor.RED + "Bob" + ChatColor.WHITE + "> Lawyer, DO SOMETHING! TO STOP THEM!");
@@ -50,7 +50,7 @@ public class YuchisUtil
       opBlow(player);
       sender.chat("TROLOLOLOLOLOL");
     }
-    public static void darkIsSwag(CommandSender sender, Player player)
+    public static void darkIsSwag(final Player player)
     {
       TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
       TFM_Util.bcastMsg("DarkGamingDronze is swag", ChatColor.GRAY);
