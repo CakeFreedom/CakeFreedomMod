@@ -17,7 +17,7 @@ public class Command_al extends TFM_Command
     {
         TFM_Util.playerMsg(sender_p, "======STAFF LIST======", ChatColor.GOLD);   
         TFM_Util.playerMsg(sender_p, "Founders", ChatColor.DARK_RED);
-        TFM_Util.playerMsg(sender_p, "- §4§k!§cSomeSexyCake§4§k!", ChatColor.GRAY);
+        TFM_Util.playerMsg(sender_p, "- §4§k!§cRemiXedCaKe§4§k!", ChatColor.GRAY);
         TFM_Util.playerMsg(sender_p, "- §4§k!§cSafoya§4§k!", ChatColor.GRAY);
         TFM_Util.playerMsg(sender_p, "Co-Founders", ChatColor.BLUE);
         TFM_Util.playerMsg(sender_p, "- RemiXedFuzZion", ChatColor.GRAY);
