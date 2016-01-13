@@ -27,19 +27,29 @@ public class Command_admintools extends TFM_Command
             }
             LongShaft.addUnsafeEnchantment(ench, 32767);
         }
+        
+        //Adds logstick
         ItemMeta shaftmeta = LongShaft.getItemMeta();
         shaftmeta.setDisplayName(ChatColor.YELLOW + "Logstick");
         LongShaft.setItemMeta(shaftmeta);
         inv.addItem(LongShaft);
+        
+        //Adds log block
         ItemStack logblock = new ItemStack(Material.STONE, 1);
         inv.addItem(logblock);
+        
+        //Adds compass
         ItemStack compass = new ItemStack(Material.COMPASS, 1);
         inv.addItem(compass);
+        
+        //Adds WorldEdit Wand
         ItemStack wand = new ItemStack(Material.WOOD_AXE, 1);
         ItemMeta wandmeta = wand.getItemMeta();
         wandmeta.setDisplayName(ChatColor.YELLOW + "WorldEdit Wand");
         wand.setItemMeta(wandmeta);
         inv.addItem(wand);
+        
+        //Adding Invis potion
         ItemStack invispot = new ItemStack(Material.POTION, 1, (short) 8270);
         ItemMeta invismeta = invispot.getItemMeta();
         invismeta.setDisplayName(ChatColor.YELLOW + "Invis Potion");
