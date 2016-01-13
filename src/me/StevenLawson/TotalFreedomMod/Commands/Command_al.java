@@ -9,7 +9,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
-@CommandParameters(description = "", aliases = "adminlist", usage = "/<command>")
+@CommandParameters(description = "This shows all admins", aliases = "adminlist", usage = "/<command>")
 public class Command_al extends TFM_Command
 {
     @Override
@@ -48,8 +48,12 @@ public class Command_al extends TFM_Command
         TFM_Util.playerMsg(sender_p, "Super Admin", ChatColor.AQUA);
         sender_p.sendMessage(ChatColor.GRAY + StringUtils.join(TFM_AdminList.getSuperAdminNames(), ", "));
         TFM_Util.playerMsg(sender_p, "======STAFF LIST======", ChatColor.GOLD); 
-        sender_p.sendMessage(ChatColor.RED + "If you're not in this list, be sure to tell us on the forums!");
-        sender_p.sendMessage(ChatColor.RED + "Remember that Developers will update this command once a week! Make sure you tell on the forums to get added and not get left behind!");
+        
+        if (TFM_AdminList.isSuperAdmin)
+        {
+        TFM_Util.playerMsg(sender_p, "If you are not on here please contact a developer!", ChatColor.RED)
+        TFM_Util.playerMsg(sender_p, "Remember developers should update this every week!", ChatColor.RED)
+        }
         
         return true;
     }
