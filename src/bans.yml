@@ -1,6 +1,8 @@
 # 
 # CakeFreedomMod banning config
 # Warning: modification of this file is not recommended
+# FORMAT: [IP/UUID]:[PLAYER BANNED]:[WHO BANNED THEM]:[TIME (0 = Forever)]:[REASON]
+#
 ips:
 - 64.58.147.242:GetSliced:none:0:none
 uuids:
