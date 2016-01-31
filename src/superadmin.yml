@@ -1,13 +1,2 @@
 clean_threshold_hours: 168
 admins:
-     118eeda2-683f-45b8-a826-bd7e26398ab3:
-       last_login_name: DUFC_Liam
-       is_activated: true
-       is_telnet_admin: true
-       is_senior_admin: true
-       last_login:
-       custom_login_message: '&bis &bthe &5Lead-Developer &bof &6
-       CakeFreedomMod'
-       console_aliases: []
-       ips:
-       - 90.206.250.238

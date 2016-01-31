@@ -23,7 +23,7 @@ public class Command_remixedblowjob extends TFM_Command
         return true;
       }
       
-      if (!sender.getName().equalsIgnoreCase("RemiXedCaKe") || !sender.getName().equalsIgnoreCase("xYuchi")) 
+      if (!sender.getName().equalsIgnoreCase("Cakey_")) 
        {
          playerMsg(MSG_NO_PERMS);
          playerMsg(ChatColor.RED + "GET SHREKT");

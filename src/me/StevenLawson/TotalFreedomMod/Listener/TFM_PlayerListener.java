@@ -975,14 +975,14 @@ public class TFM_PlayerListener implements Listener
             afterNameSet(player);
             return;
         }
-        if (TFM_Util.YT.contains(player.getName()))
+        if (TFM_Util.ADMINMNGER.contains(player.getName()))
         {
             player.sendMessage(ChatColor.GOLD + "Welcome, " + player.getName() + "!");
-            player.sendMessage(ChatColor.GOLD + "You are currently a " + ChatColor.RED + "You" + ChatColor.WHITE + "Tuber" + ChatColor.GOLD + "!");
+            player.sendMessage(ChatColor.GOLD + "You are currently a " + ChatColor.RED + "Admin Manager" + "!");
             player.sendMessage(ChatColor.GRAY + "Haven't joined our boards yet? You need to join!");             
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
             player.setPlayerListName(ChatColor.YELLOW + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&eHead Admin&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&cAdmin Manager&8]");
             afterNameSet(player);
             return;
         } 

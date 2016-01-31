@@ -10,7 +10,7 @@ import static me.StevenLawson.TotalFreedomMod.TFM_Util.LEADDEV;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.STAFFMNGER;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.HEADADM;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.HOST;
-import static me.StevenLawson.TotalFreedomMod.TFM_Util.YT;
+import static me.StevenLawson.TotalFreedomMod.TFM_Util.ADMINMNGER;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -39,8 +39,8 @@ public enum TFM_PlayerRank
     HADMIN("the " + ChatColor.YELLOW + "Head Admin" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&eHead Admin&8]&9")),
     STAFFMANAGE("the " + ChatColor.RED + "Staff Manager" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&cStaff Manager&8]&9")),
     HOSTER("the " + ChatColor.GOLD + "Host" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&6&lHost&8]&9")),
-    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.translateAlternateColorCodes('&', "&8[&5Console&8]&9")),
-    YOUTUBE("a " + ChatColor.RED + "You" + ChatColor.WHITE + "Tuber" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&cYou&fTuber&8]&9"));
+    ADMINMAN("the " + ChatColor.RED + "Admin Manager" + ChatColor.AQUA + " of " + ChatColor.RED + "CakeFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&6&lHost&8]&9")),
+    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.translateAlternateColorCodes('&', "&8[&5Console&8]&9"));
     private final String loginMessage;
     private final String prefix;
 
@@ -129,11 +129,10 @@ public enum TFM_PlayerRank
         {
             return HOSTER;
         }
-        else if (YT.contains(sender.getName()))
+        else if (ADMINMNGER.contains(sender.getName()))
         {
-            return YOUTUBE;
+            return ADMINMAN;
         }
-
         final TFM_Admin entry = TFM_AdminList.getEntryByIp(TFM_Util.getIp((Player) sender));
 
         final TFM_PlayerRank rank;

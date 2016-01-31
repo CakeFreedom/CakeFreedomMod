@@ -4,6 +4,4 @@
 # FORMAT: [IP/UUID]:[PLAYER BANNED]:[WHO BANNED THEM]:[TIME (0 = Forever)]:[REASON]
 #
 ips:
-- 64.58.147.242:GetSliced:none:0:none
 uuids:
-- deadbeef-a730-fc9d-eac6-3f03816ab3c9:GetSliced:none:0:none
